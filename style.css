@@ -240,7 +240,7 @@
     margin-top: 4%;
     margin-left: 62%;
 }
-@media screen and (min-width: 2000px) and (max-width: 3000px) {
+@media screen and (min-width: 1920px)  and (max-width: 3000px) {
    #description{
        margin-left: 30%;
    }
@@ -271,7 +271,7 @@
       margin-left: 92.5%;
    }
 }
-@media screen and (max-width: 1700px) {
+@media screen and (min-width: 1500px) and (max-width: 1700px) {
    #description{
        margin-left: 23%;
    }
@@ -305,13 +305,14 @@
       margin-top:7%;
    }
 }
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1024px){
    #name{
-      margin-left: 84%;
+      margin-left: 80%;
       margin-top: 3%;
    }
    #title{
-      margin-left: 10.5%;
+      margin-left: 11.5%;
+      margin-top: 2%;
    }
    #panel1{
       margin-top: 9%;
@@ -329,5 +330,32 @@
    #signup{
       margin-left: 40.1%;
    }
-
+}
+@media screen and (min-width: 1200px) and (max-width: 1400px){
+   #name{
+      margin-left: 85%;
+      margin-top: 2.5%;
+   }
+   #slideshow{
+      margin-top: 40%;
+   }
+   #panel1{
+      margin-top: 8%;
+      padding-bottom: 30%;
+   }
+   #globe{
+      margin-left: 66%;
+   }
+   #description{
+      margin-left: 11%;
+   }
+   #title{
+      margin-left: 10%;
+   }
+   #right, #left{
+      margin-top: 13%;
+   }
+   #signup{
+      margin-left: 41%;
+   }
 }
