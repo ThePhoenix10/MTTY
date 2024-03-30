@@ -247,11 +247,7 @@
     margin-top: 4%;
     margin-left: 62%;
 }
-<<<<<<< HEAD
 @media screen and (min-width: 1750px) and (max-width: 3000px) {
-=======
-@media screen and (min-width: 1920px)  and (max-width: 3000px) {
->>>>>>> 33f492623bd5cbea596b73e415189c258647a85b
    #description{
        margin-left: 30%;
    }
@@ -282,8 +278,6 @@
       margin-left: 92.5%;
    }
 }
-<<<<<<< HEAD
-
 #volunteer{
    background-color: aliceblue;
    padding-top: 50px;
@@ -376,5 +370,4 @@
    #signup{
       margin-left: 41%;
    }
->>>>>>> 33f492623bd5cbea596b73e415189c258647a85b
 }
