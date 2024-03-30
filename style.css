@@ -146,7 +146,7 @@
  #right{
     position: absolute;
     z-index: 100000000000;
-    margin-left: 90%;
+    margin-left: 91%;
     margin-top: 8%;
  }
  .images{
@@ -159,18 +159,19 @@
     text-align: center;
     font-size: 40px;
  }
- #list{
-    position: absolute;
-    margin-left: 4.5%;
-    list-style-type: disc;
+ .lists{
     font-size: 20px;
     font-family: "Open Sans";
+    font-weight: 400;
+    background-color: navy;
+    padding: 15px;
+    color: white;
  }
-#roles{
-    font-size: 25px;
-    margin-left: 69%;
-    font-family: "Open Sans";
-    list-style-type: disc;
+ .flex-container {
+   display: flex;
+   flex-direction: row;
+   gap: 250px;
+   margin-left: 9.8%;
 }
 #signup{
     background: none;
@@ -199,10 +200,16 @@
     color: #4366c5;
 }
 #list1{
-    width: 550px;
+    width: 250px;
+    text-align: center;
 }
 #list2{
-    width: 600px;
+    width: 300px;
+    text-align: center;
+}
+#list3{
+   width: 200px;
+   text-align: center;
 }
 #comic1{
     width: 700px;
@@ -240,7 +247,7 @@
     margin-top: 5%;
     margin-left: 62%;
 }
-@media screen and (min-width: 2000px) and (max-width: 3000px) {
+@media screen and (min-width: 1750px) and (max-width: 3000px) {
    #description{
        margin-left: 30%;
    }
@@ -260,4 +267,10 @@
    #name{
       margin-left: 90%;
    }
+}
+
+#volunteer{
+   background-color: aliceblue;
+   padding-top: 50px;
+   padding-bottom: 50px;
 }
