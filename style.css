@@ -184,14 +184,13 @@
 }
 #description{
     position: absolute;
-    width: 650px;
+    width: 38%;
     text-align: center;
     line-height: 1cm;
     font-size: 30px;
     margin-left: 22%;
     font-family: "Open Sans";
     font-weight: 400;
-    height: 500px;
     margin-top: 5%;
     color: #4366c5;
 }
@@ -235,7 +234,7 @@
 }
 #globe{
     position: absolute;
-    width: 275px;
+    width: 17%;
     margin-top: 5%;
     margin-left: 62%;
 }
