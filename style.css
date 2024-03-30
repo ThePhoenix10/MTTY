@@ -402,3 +402,39 @@
       margin-left: 41%;
    }
 }
+@media screen and (max-width: 576px){
+   #slideshow{
+      margin-top: 450px;
+   }
+   #description{
+      font-size: 15px;
+   }
+   #slides{
+      height: 400px;
+      overflow-y: hidden;
+      touch-action: pan-y; /* Allow vertical touch scrolling */
+   }
+   #slides.inner{
+      padding-top: 2px;
+      height: 200px;
+   }
+   #comic1{
+      width: 450px;
+   }
+   #panel1{
+      padding-right: 60px;
+   }
+   .flex-container{
+      flex-direction: column;
+      gap: 20px;
+   }
+   #volunteer{
+      padding-right: 60px;
+   }
+
+   /* Code for swiping images */
+   #slides {
+      overflow-x: auto; /* Enable horizontal scrolling */
+      -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
+   }
+}
