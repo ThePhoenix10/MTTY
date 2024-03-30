@@ -237,7 +237,7 @@
 #globe{
     position: absolute;
     width: 275px;
-    margin-top: 5%;
+    margin-top: 4%;
     margin-left: 62%;
 }
 @media screen and (min-width: 2000px) and (max-width: 3000px) {
@@ -259,30 +259,41 @@
    }
    #name{
       margin-left: 90%;
+      margin-top: 2.1%;
+   }
+   #title{
+      margin-left: 6%;
+   }
+   #left, #right{
+      margin-top: 6%;
+   }
+   #right{
+      margin-left: 92.5%;
    }
 }
 @media screen and (max-width: 1700px) {
    #description{
-       margin-left: 5%;
+       margin-left: 23%;
    }
    #globe{
-      margin-left: 80%;
+      margin-left: 63%;
    }
    #slideshow{
-      margin-top: 27%;
+      margin-top: 33%;
    }
    #panel1{
       padding-bottom: 25%;
       margin-top: 8%;
    }
    #signup{
-      margin-left: 37%;
+      margin-left: 43.5%;
    }
    #name{
-      margin-left: 80%;
+      margin-top: 2.5%;
+      margin-left: 87%;
    }
-   #title1{
-      margin-left: 11%;
+   #title{
+      margin-left: 8%;
    }
    #list{
       font-size: 15px;
@@ -290,4 +301,33 @@
    #roles{
       font-size: 15px;
    }
+   #panel1{
+      margin-top:7%;
+   }
+}
+@media screen and (max-width: 1150px){
+   #name{
+      margin-left: 84%;
+      margin-top: 3%;
+   }
+   #title{
+      margin-left: 10.5%;
+   }
+   #panel1{
+      margin-top: 9%;
+      padding-bottom: 30%;     
+   }
+   #description{
+      margin-left: 8%;
+   }
+   #globe{
+      margin-left: 70%;
+   }
+   #slideshow{
+      margin-top: 40%;
+   }
+   #signup{
+      margin-left: 40.1%;
+   }
+
 }
