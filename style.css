@@ -317,13 +317,13 @@
       margin-top:7%;
    }
 }
-@media screen and (max-width: 1024px){
+@media screen and (min-width: 1115px) and (max-width: 1168px){
    #name{
-      margin-left: 80%;
+      margin-left: 85%;
       margin-top: 3%;
    }
    #title{
-      margin-left: 11.5%;
+      margin-left: 10%;
       margin-top: 2%;
    }
    #panel1{
@@ -342,10 +342,13 @@
    #signup{
       margin-left: 40.1%;
    }
+   #right, #left{
+      margin-top: 15%;
+   }
 }
-@media screen and (min-width: 1100px) and (max-width: 1400px){
+@media screen and (min-width: 1045px) and (max-width: 1115px){
    #name{
-      margin-left: 85%;
+      margin-left: 84%;
       margin-top: 2.5%;
    }
    #slideshow{
@@ -359,10 +362,10 @@
       margin-left: 66%;
    }
    #description{
-      margin-left: 11%;
+      margin-left: 4%;
    }
    #title{
-      margin-left: 10%;
+      margin-left: 11%;
    }
    #right, #left{
       margin-top: 13%;
