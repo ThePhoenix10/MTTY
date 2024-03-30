@@ -1,106 +1,37 @@
 * {
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
 }
 
 #title{
-    margin-left: 100px;
-    font-size: 30px;
-    width: 300px;
+    margin-left: 7.5%;
+    font-size: 20px;
     text-align: left;
     color: black;
-    margin-top: 50px;
+    margin-top: 2%;
     position: absolute;
+    font-family: "Nanum Gothic", sans-serif;
+    width: 150px;
+    z-index: 9999999;
+    line-height: 0.7cm;
+    color: #4366c5;
 }
 #panel1{
-    background: pink;
     width: 100%;
     padding-bottom: 400px;
-    height: 100%;
     overflow-y: hidden;
+    position: absolute;
+    margin-top: 7.3%;
+    background-color: aliceblue;
 }
 #paragraph{
     width: 800px;
     font-family: Arial, Helvetica, sans-serif;
 }
-#video{
-    position: absolute;
-    margin-left: 165px;
-    margin-top: 80px;
-}
 #title2{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 50px;
-}
-#telephone{
-    width: 50px;
-    height: 50px;
-    margin-left: 1300px;
-    margin-top: 60px;
-}
-#oven{
-    width: 50px;
-    height: 50px;
-    margin-left: 840px;
-    margin-top: 60px;
-}
-#teacher{
-    width: 60px;
-    height: 60px;
-    margin-top: 185px;
-    margin-left: 925px;
-}
-.icons{
-    position: absolute;
-}
-.bullets{
-    text-align: center;
-    font-weight: 400;
-    font-size: 21px;
-    font-family: "Open Sans";
-}
-#bulletone{
-    position: absolute;
-    margin-left: 1360px;
-    width: 200px;
-    margin-top: 55px;
-}
-#bullettwo{
-    position: absolute;
-    margin-left: 900px;
-    width: 300px;
-    margin-top: 55px;
-}
-#bulletthree{
-    position: absolute;
-    margin-top: 175px;
-    width: 400px;
-    margin-left: 1000px;
-}
-#practice{
-    background-color: azure;
-    padding-bottom: 300px;
-}
-#title3{
-    margin-left: 50px;
-    margin-top: 100px;
-    position: absolute;
-}
-
-#button{
-    background: none;
-    padding: 40px 80px;
-    border-radius: 10px;
-    transition: 0.25s;
-    color: black;
-    font-size: 25px;
-    margin-left: 100px;
-    margin-top: 200px;
-    position: absolute;
-}
-#button:hover{
-    background-color: rgb(255, 60, 0);
-    color: white;
 }
 
 #slider {
@@ -121,6 +52,7 @@
     background: #fff;
     position: relative;
     z-index: 1;
+
  }
  #overflow {
     width: 100%;
@@ -204,15 +136,15 @@
  }
  #left{
     position: absolute;
-    margin-left: 100px;
-    margin-top: 150px;
+    margin-left: 5%;
+    margin-top: 8%;
     z-index: 100000000;
  }
  #right{
     position: absolute;
     z-index: 100000000000;
-    margin-left: 1550px;
-    margin-top: 150px;
+    margin-left: 90%;
+    margin-top: 8%;
  }
  .images{
     width: 300px;
@@ -226,15 +158,16 @@
  }
  #list{
     position: absolute;
-    margin-left: 50px;
+    margin-left: 4.5%;
     list-style-type: disc;
     font-size: 20px;
     font-family: "Open Sans";
  }
 #roles{
     font-size: 25px;
-    margin-left: 1200px;
+    margin-left: 69%;
     font-family: "Open Sans";
+    list-style-type: disc;
 }
 #signup{
     background: none;
@@ -243,58 +176,67 @@
     transition: 0.25s;
     color: black;
     font-size: 25px;
-    margin-left: 740px;
-    
+    margin-left: 43.4%;
 }
 #signup:hover{
     background-color: #ff3c00;
     color: white;
 }
-#volunteer{
-    background-color: lightgreen;
-    padding-top: 25px;
-    padding-bottom: 25px;
-}
 #description{
     position: absolute;
-    width: 600px;
+    width: 650px;
     text-align: center;
     line-height: 1cm;
-    margin-top: 100px;
-    font-size: 20px;
-    margin-left: 950px;
+    font-size: 30px;
+    margin-left: 22%;
     font-family: "Open Sans";
     font-weight: 400;
     height: 500px;
-}
-#iframe{
-    display: none;
-    position: absolute;
-    z-index: 1000000;
-    margin-left: 550px;
-    margin-top: 100px;
-    border: 3px solid green;
-    padding: 0;
-}
-#close{
-    background-image: url("the\ x.png");
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    margin-left: 1140px;
-    margin-top: 110px;
-    z-index: 10000000;
-    display: none;
+    margin-top: 5%;
+    color: #4366c5;
 }
 #list1{
-    width: 600px;
+    width: 550px;
 }
 #list2{
     width: 600px;
 }
 #comic1{
-    width: 775px;
+    width: 700px;
 }
 #comic2{
     width: 775px;
+}
+#logotop{
+    position: absolute;
+    margin-left: 2.6%;
+    margin-top: 1.4%;
+    width: 80px;
+}
+#top{
+    position: absolute;
+    background-color: white;
+    padding-right: 1900px;
+    padding-bottom: 120px;
+
+}
+#slideshow{
+    margin-top: 32%;
+}
+#name{
+    margin-left: 500px;
+    width: 500px;
+    margin-left: 75%;
+    margin-top: 2.5%;
+    position: absolute;
+    font-family: "Nanum Gothic", sans-serif;
+}
+#name{
+    color: #3a3b3c;
+}
+#globe{
+    position: absolute;
+    width: 275px;
+    margin-top: 5%;
+    margin-left: 62%;
 }
