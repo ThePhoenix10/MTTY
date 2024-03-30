@@ -6,11 +6,11 @@
 }
 
 #title{
-    margin-left: 7.5%;
+    margin-left: 6.34%;
     font-size: 20px;
     text-align: left;
     color: black;
-    margin-top: 2%;
+    margin-top: 1.6%;
     position: absolute;
     font-family: "Nanum Gothic", sans-serif;
     width: 150px;
@@ -33,6 +33,10 @@
 #title2{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 50px;
+}
+#last{
+   background: black;
+   padding-bottom: 10px;
 }
 
 #slider {
@@ -216,7 +220,7 @@
 #top{
     position: absolute;
     background-color: white;
-    padding-right: 1900px;
+    padding-right: 100%;
     padding-bottom: 120px;
 }
 #slideshow{
@@ -250,5 +254,11 @@
    #panel1{
       padding-bottom: 17%;
       margin-top: 5%;
+   }
+   #signup{
+      margin-left: 45.5%;
+   }
+   #name{
+      margin-left: 90%;
    }
 }
