@@ -261,3 +261,33 @@
       margin-left: 90%;
    }
 }
+@media screen and (max-width: 1700px) {
+   #description{
+       margin-left: 25%;
+   }
+   #globe{
+      margin-left: 60%;
+   }
+   #slideshow{
+      margin-top: 27%;
+   }
+   #panel1{
+      padding-bottom: 17%;
+      margin-top: 5%;
+   }
+   #signup{
+      margin-left: 42%;
+   }
+   #name{
+      margin-left: 80%;
+   }
+   #title1{
+      margin-left: 9%;
+   }
+   #list{
+      font-size: 15px;
+   }
+   #roles{
+      font-size: 15px;
+   }
+}
