@@ -520,7 +520,7 @@
  
  @media screen and (max-width: 400px) {
     #slideshow {
-        margin-top: 450px;
+        margin-top: 300px;
     }
  
     #description {
@@ -573,7 +573,7 @@
         margin-top: 3%;
     }
     #name {
-        margin-left: 270px;
+        margin-left: 290px;
         width: 100px;
         text-align: center;
         font-size: 15px;
@@ -582,7 +582,7 @@
  
  
     #globe {
-        width: 115px;
+        width: 125px;
         margin-left: 260px;
         margin-top: 60px;
     }
@@ -625,4 +625,8 @@
     #comic3{
         width: 50px;
     }
+    #signup{
+        background-color: #4366c5;
+        color: white;
+     }
  }
