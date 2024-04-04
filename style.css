@@ -518,9 +518,9 @@
     }
  }
  
- @media screen and (max-width: 430px) {
+ @media screen and (max-width: 600px) {
     #slideshow {
-        margin-top: 300px;
+        margin-top: 275px;
     }
  
     #description {
@@ -628,5 +628,8 @@
     #signup{
         background-color: #4366c5;
         color: white;
-     }
+    }
+    #bullets{
+        margin-top: 20px;
+    }
  }
