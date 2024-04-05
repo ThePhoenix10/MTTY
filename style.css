@@ -633,7 +633,7 @@
         margin-top: 20px;
     }
  }
- @media screen and (max-width: 580px) {
+ @media screen and (max-width: 600px) {
     #slideshow {
         margin-top: 275px;
     }
