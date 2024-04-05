@@ -750,3 +750,119 @@
         margin-top: 20px;
     }
  }
+ @media screen and (max-width: 425px) and (max-width: 450px){
+    #slideshow {
+        margin-top: 275px;
+    }
+ 
+    #description {
+        font-size: 15px;
+        width: 250px;
+        margin-left: 4%;
+        margin-top: 5%;
+    }
+ 
+    #slides {
+        height: 400px;
+        overflow-y: hidden;
+        touch-action: pan-y;
+    }
+ 
+    #slides.inner {
+        padding-top: 2px;
+        height: 200px;
+    }
+ 
+ 
+    #panel1 {
+        margin-top: 25%;
+        padding-bottom: 65%;
+    }
+ 
+    .flex-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+ 
+    #volunteer {
+        padding-right: 60px;
+    }
+ 
+    #slides {
+        overflow-x: hidden;
+    }
+ 
+    #left {
+        display: none;
+    }
+ 
+    #right {
+        display: none;
+    }
+ 
+    #title {
+        margin-left: 22%;
+        margin-top: 3%;
+    }
+    #name {
+        margin-left: 295px;
+        width: 100px;
+        text-align: center;
+        font-size: 15px;
+        margin-top: 4.4%;
+    }
+ 
+ 
+    #globe {
+        width: 125px;
+        margin-left: 280px;
+        margin-top: 60px;
+    }
+
+    #fleximages {
+        flex-direction: column;
+        position: absolute;
+        gap: 60px;
+        margin-left: 285px;
+        margin-top: 20px;
+    }
+    .images{
+        width: 85px;
+    }
+    #voltitle {
+        margin-left: 75px;
+    }
+ 
+    #signup {
+        margin-left: 75px;
+    }
+    .lists{
+       font-size: medium;
+    }
+    #list2{
+       width: 200px;
+    }
+    #list1{
+       width: 200px;
+    }
+    #billion{
+        font-size: 20px;
+    }
+    #comic1{
+        width: 237px;
+    }
+    #comic2{
+        width: 100px;
+    }
+    #comic3{
+        width: 50px;
+    }
+    #signup{
+        background-color: #4366c5;
+        color: white;
+        margin-left: 110px;
+    }
+    #bullets{
+        margin-top: 20px;
+    }
+ }
