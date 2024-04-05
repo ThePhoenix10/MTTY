@@ -288,12 +288,33 @@
     margin-top: 4%;
     margin-left: 62%;
  }
- 
+ #fleximages{
+    display: flex;
+    flex-direction: row;
+    gap: 400px;
+    margin-left: 240px;
+ }
+ .images{
+    width: 150px;
+ }
+ #billion{
+    font-size: 35px;
+ }
  @media screen and (min-width: 1750px) and (max-width: 3000px) {
+    .flex-container{
+        gap: 700px;
+        margin-left: 140px;
+    }
+    #fleximages{
+        gap: 840px;
+        margin-left: 225px;
+    }
     #description {
         margin-left: 30%;
     }
- 
+    #logotop{
+        margin-left: 1%;
+    }
     #globe {
         margin-left: 57%;
     }
@@ -312,12 +333,12 @@
     }
  
     #name {
-        margin-left: 90%;
+        margin-left: 92%;
         margin-top: 2.1%;
     }
  
     #title {
-        margin-left: 6%;
+        margin-left: 4.5%;
     }
  
     #left,
@@ -335,19 +356,7 @@
     padding-top: 50px;
     padding-bottom: 50px;
  }
- 
-#fleximages{
-    display: flex;
-    flex-direction: row;
-    gap: 400px;
-    margin-left: 240px;
- }
- .images{
-    width: 150px;
- }
- #billion{
-    font-size: 35px;
- }
+
  @media screen and (min-width: 1500px) and (max-width: 1700px) {
     #description {
         margin-left: 23%;
