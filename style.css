@@ -520,7 +520,7 @@
  
  @media screen and (max-width: 450px) {
     #slideshow {
-        margin-top: 1000px;
+        margin-top: 275px;
     }
  
     #description {
@@ -569,7 +569,7 @@
     }
  
     #title {
-        margin-left: 28%;
+        margin-left: 24%;
         margin-top: 3%;
     }
     #name {
@@ -582,7 +582,7 @@
  
  
     #globe {
-        width: 115px;
+        width: 125px;
         margin-left: 260px;
         margin-top: 60px;
     }
@@ -628,7 +628,7 @@
     #signup{
         background-color: #4366c5;
         color: white;
-        margin-left: 75px;
+        margin-left: 85px;
     }
     #bullets{
         margin-top: 20px;
