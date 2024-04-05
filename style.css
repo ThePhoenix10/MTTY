@@ -657,7 +657,6 @@
         height: 200px;
     }
  
- 
     #panel1 {
         margin-top: 25%;
         padding-bottom: 65%;
@@ -666,7 +665,7 @@
     .flex-container {
         flex-direction: column;
         gap: 20px;
-        margin-left: 75px;
+        margin-left: 35px;
     }
  
     #volunteer {
@@ -686,11 +685,11 @@
     }
  
     #title {
-        margin-left: 21%;
+        margin-left: 23%;
         margin-top: 3%;
     }
     #name {
-        margin-left: 370px;
+        margin-left: 330px;
         width: 100px;
         text-align: center;
         font-size: 15px;
@@ -699,8 +698,8 @@
  
  
     #globe {
-        width: 150px;
-        margin-left: 300px;
+        width: 140px;
+        margin-left: 280px;
         margin-top: 60px;
     }
 
@@ -708,7 +707,7 @@
         flex-direction: column;
         position: absolute;
         gap: 60px;
-        margin-left: 325px;
+        margin-left: 300px;
         margin-top: 20px;
     }
     .images{
@@ -718,9 +717,6 @@
         margin-left: 75px;
     }
  
-    #signup {
-        margin-left: 75px;
-    }
     .lists{
        font-size: medium;
     }
@@ -745,7 +741,7 @@
     #signup{
         background-color: #4366c5;
         color: white;
-        margin-left: 125px;
+        margin-left: 100px;
     }
     #bullets{
         margin-top: 20px;
