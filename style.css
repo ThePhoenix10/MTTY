@@ -685,11 +685,11 @@
     }
  
     #title {
-        margin-left: 24%;
+        margin-left: 24.5%;
         margin-top: 3%;
     }
     #name {
-        margin-left: 280px;
+        margin-left: 272px;
         width: 100px;
         text-align: center;
         font-size: 15px;
@@ -698,7 +698,7 @@
  
  
     #globe {
-        width: 125px;
+        width: 120px;
         margin-left: 260px;
         margin-top: 60px;
     }
