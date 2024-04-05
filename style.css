@@ -802,11 +802,11 @@
     }
  
     #title {
-        margin-left: 24%;
+        margin-left: 24.5%;
         margin-top: 3%;
     }
     #name {
-        margin-left: 280px;
+        margin-left: 270px;
         width: 100px;
         text-align: center;
         font-size: 15px;
@@ -815,7 +815,7 @@
  
  
     #globe {
-        width: 125px;
+        width: 120px;
         margin-left: 260px;
         margin-top: 60px;
     }
@@ -861,7 +861,7 @@
     #signup{
         background-color: #4366c5;
         color: white;
-        margin-left: 85px;
+        margin-left: 80px;
     }
     #bullets{
         margin-top: 20px;
