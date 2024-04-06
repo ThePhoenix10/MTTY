@@ -359,11 +359,11 @@
 
  @media screen and (min-width: 1500px) and (max-width: 1700px) {
     #description {
-        margin-left: 22%;
+        margin-left: 21%;
     }
  
     #globe {
-        margin-left: 64%;
+        margin-left: 65%;
     }
  
     #slideshow {
@@ -400,7 +400,7 @@
         margin-top: 7%;
     }
     .flex-container{
-        margin-left: 6.8%;
+        margin-left: 6%;
         gap: 260px;
     }
     #fleximages{
