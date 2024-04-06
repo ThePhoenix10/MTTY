@@ -399,6 +399,13 @@
     #panel1 {
         margin-top: 7%;
     }
+    .flex-container{
+        margin-left: 6.8%;
+    }
+    #fleximages{
+        margin-left: 11%;
+        gap: 275;
+    }
  }
  
  @media screen and (min-width: 1145px) and (max-width: 1300px) {
