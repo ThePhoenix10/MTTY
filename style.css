@@ -447,10 +447,11 @@
     }
     #fleximages{
         gap: 190px;
-        margin-left: 200px;
+        margin-left: 185px;
     }
     .flex-container{
-        gap: 10px;
+        gap: 50px;
+        margin-left: 40px;
     }
  }
  
